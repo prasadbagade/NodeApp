@@ -4,6 +4,7 @@ var mongoose = require('mongoose');
 require('../models/ideas');
 var Idea = mongoose.model('ideas');
 
+
 // Add idea form
 router.get('/add', function (req, res) {
     res.render("ideas/add");
